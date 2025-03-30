@@ -72,22 +72,25 @@ glm::vec3 lineColor(0.0f, 0.0f, 1.0f);
 float lineY = 0.0f;
 const float lineMove = 0.01f;
 
-glm::vec2 veloc(0.0f, 0.0f);     // Kör alaphelyzetben
-
-bool isMoving = false;
-const float initSpeed = 1.0f;                // Kör mozgásához és irányához szükséges paraméterek
-const float angle = glm::radians(25.0f); 
+glm::vec2 veloc(1.0f, 0.0f);     // Kör alap mozgása
+bool isMoving = true;
+const float initSpeed = 1.0f;                   // Kör mozgásához és irányához szükséges paraméterek
+const float angle = glm::radians(25.0f);
 
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods) {
     if (action == GLFW_PRESS || action == GLFW_REPEAT) {
         switch (key) {
         case GLFW_KEY_UP: lineY = std::min(lineY + lineMove, 1.0f); break;
-        case GLFW_KEY_DOWN: lineY = std::max(lineY - lineMove, -1.0f); break;              // Billentyű események kezelése
+        case GLFW_KEY_DOWN: lineY = std::max(lineY - lineMove, -1.0f); break;
         case GLFW_KEY_S:
-            if (!isMoving) {
+            if (isMoving) {
+                veloc.x = initSpeed * std::cos(angle);                          // Billentyű események kezelése
+                veloc.y = initSpeed * std::sin(angle);
+            }
+            else {
+                isMoving = true;
                 veloc.x = initSpeed * std::cos(angle);
                 veloc.y = initSpeed * std::sin(angle);
-                isMoving = true;
             }
             break;
         }
