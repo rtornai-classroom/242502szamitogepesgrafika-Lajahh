@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\line_vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\line_vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\line_fragment_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\line_fragment_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\fragment_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\fragment_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\line_vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\line_vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\line_fragment_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\line_fragment_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\vertex_shader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,14 +40,14 @@
               "RelativeDocumentMoniker": "Hazi\\Source.cpp",
               "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\Source.cpp",
               "RelativeToolTip": "Hazi\\Source.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-27T18:01:20.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "line_fragment_shader.glsl",
               "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\line_fragment_shader.glsl",
               "RelativeDocumentMoniker": "Hazi\\line_fragment_shader.glsl",
@@ -55,11 +55,12 @@
               "RelativeToolTip": "Hazi\\line_fragment_shader.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T12:22:30.416Z"
+              "WhenOpened": "2025-03-14T12:22:30.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "line_vertex_shader.glsl",
               "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\line_vertex_shader.glsl",
               "RelativeDocumentMoniker": "Hazi\\line_vertex_shader.glsl",
@@ -67,8 +68,7 @@
               "RelativeToolTip": "Hazi\\line_vertex_shader.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T12:22:19.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:22:19.688Z"
             },
             {
               "$type": "Document",
@@ -80,11 +80,12 @@
               "RelativeToolTip": "Hazi\\fragment_shader.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T12:21:54.857Z"
+              "WhenOpened": "2025-03-14T12:21:54.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "vertex_shader.glsl",
               "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\vertex_shader.glsl",
               "RelativeDocumentMoniker": "Hazi\\vertex_shader.glsl",
