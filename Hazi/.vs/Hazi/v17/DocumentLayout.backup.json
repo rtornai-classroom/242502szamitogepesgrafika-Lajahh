@@ -38,9 +38,9 @@
               "Title": "Source.cpp",
               "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\Source.cpp",
               "RelativeDocumentMoniker": "Hazi\\Source.cpp",
-              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\Source.cpp",
-              "RelativeToolTip": "Hazi\\Source.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Hazi\\Hazi\\Source.cpp*",
+              "RelativeToolTip": "Hazi\\Source.cpp*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-27T18:01:20.501Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Hazi\\line_fragment_shader.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T12:22:30.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:22:30.416Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Hazi\\fragment_shader.glsl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T12:21:54.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:21:54.857Z"
             },
             {
               "$type": "Document",

@@ -195,6 +195,8 @@ int main() {
         glBufferData(GL_ARRAY_BUFFER, controlPoints.size() * sizeof(glm::vec2), controlPoints.data(), GL_DYNAMIC_DRAW);
         glPointSize(8.0f);                                                                                                         // Kontrollpontok
         glEnable(GL_POINT_SMOOTH);  // Pont kinézetért felelős parancs
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         glDrawArrays(GL_POINTS, 0, controlPoints.size());
 
         glfwSwapBuffers(window);
