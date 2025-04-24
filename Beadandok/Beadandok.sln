@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{868BBB91-B53B-41BA-B576-D6911EF187FD}"
+	ProjectSection(SolutionItems) = preProject
+		OpenGLTemplate\include\common.cpp = OpenGLTemplate\include\common.cpp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hazi", "Hazi\Hazi.vcxproj", "{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hazi2", "Hazi2\Hazi2.vcxproj", "{3437EC02-028C-4D3E-A6A1-BB9186678881}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hazi2_Peldakod", "Hazi2_Peldakod\Hazi2_Peldakod.vcxproj", "{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Debug|x64.ActiveCfg = Debug|x64
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Debug|x64.Build.0 = Debug|x64
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Debug|x86.Build.0 = Debug|Win32
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Release|x64.ActiveCfg = Release|x64
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Release|x64.Build.0 = Release|x64
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Release|x86.ActiveCfg = Release|Win32
+		{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}.Release|x86.Build.0 = Release|Win32
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Debug|x64.ActiveCfg = Debug|x64
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Debug|x64.Build.0 = Debug|x64
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Debug|x86.ActiveCfg = Debug|Win32
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Debug|x86.Build.0 = Debug|Win32
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Release|x64.ActiveCfg = Release|x64
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Release|x64.Build.0 = Release|x64
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Release|x86.ActiveCfg = Release|Win32
+		{3437EC02-028C-4D3E-A6A1-BB9186678881}.Release|x86.Build.0 = Release|Win32
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Debug|x64.ActiveCfg = Debug|x64
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Debug|x64.Build.0 = Debug|x64
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Debug|x86.ActiveCfg = Debug|Win32
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Debug|x86.Build.0 = Debug|Win32
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Release|x64.ActiveCfg = Release|x64
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Release|x64.Build.0 = Release|x64
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Release|x86.ActiveCfg = Release|Win32
+		{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {589ADAE0-2C1F-4EDB-A048-5F5A94FFE5A5}
+	EndGlobalSection
+EndGlobal

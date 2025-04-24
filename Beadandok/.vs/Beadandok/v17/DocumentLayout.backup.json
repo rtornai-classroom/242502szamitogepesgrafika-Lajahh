@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|solutionrelative:Hazi2_Peldakod\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\QuadScreenVertShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|solutionrelative:Hazi2_Peldakod\\QuadScreenVertShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3437EC02-028C-4D3E-A6A1-BB9186678881}|Hazi2\\Hazi2.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3437EC02-028C-4D3E-A6A1-BB9186678881}|Hazi2\\Hazi2.vcxproj|solutionrelative:Hazi2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\FragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\FragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3437EC02-028C-4D3E-A6A1-BB9186678881}|Hazi2\\Hazi2.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2\\FragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3437EC02-028C-4D3E-A6A1-BB9186678881}|Hazi2\\Hazi2.vcxproj|solutionrelative:Hazi2\\FragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveTessEvalShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|solutionrelative:Hazi2_Peldakod\\CurveTessEvalShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveTessContShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|solutionrelative:Hazi2_Peldakod\\CurveTessContShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveFragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B47CCB5C-E9AB-41E6-98FD-D017A9009ACC}|Hazi2_Peldakod\\Hazi2_Peldakod.vcxproj|solutionrelative:Hazi2_Peldakod\\CurveFragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\LineVertShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\LineVertShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\lineFragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{920F58BA-06AE-4CF5-97C4-838AA6E0B1EC}|Hazi\\Hazi.vcxproj|solutionrelative:Hazi\\lineFragShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868BBB91-B53B-41BA-B576-D6911EF187FD}|Solution Items{868BBB91-B53B-41BA-B576-D6911EF187FD}|D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\OpenGLTemplate\\include\\common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{868BBB91-B53B-41BA-B576-D6911EF187FD}|Solution Items{868BBB91-B53B-41BA-B576-D6911EF187FD}|solutionrelative:OpenGLTemplate\\include\\common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuadScreenVertShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\QuadScreenVertShader.glsl",
+              "RelativeDocumentMoniker": "Hazi2_Peldakod\\QuadScreenVertShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\QuadScreenVertShader.glsl",
+              "RelativeToolTip": "Hazi2_Peldakod\\QuadScreenVertShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:32:19.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CurveFragShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveFragShader.glsl",
+              "RelativeDocumentMoniker": "Hazi2_Peldakod\\CurveFragShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveFragShader.glsl",
+              "RelativeToolTip": "Hazi2_Peldakod\\CurveFragShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:32:14.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\Source.cpp",
+              "RelativeDocumentMoniker": "Hazi2_Peldakod\\Source.cpp",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\Source.cpp",
+              "RelativeToolTip": "Hazi2_Peldakod\\Source.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T01:31:10.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\Source.cpp",
+              "RelativeDocumentMoniker": "Hazi\\Source.cpp",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\Source.cpp",
+              "RelativeToolTip": "Hazi\\Source.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T01:26:49.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2\\Source.cpp",
+              "RelativeDocumentMoniker": "Hazi2\\Source.cpp",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2\\Source.cpp",
+              "RelativeToolTip": "Hazi2\\Source.cpp",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAAMcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T01:26:47.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LineFragShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\LineFragShader.glsl",
+              "RelativeDocumentMoniker": "Hazi\\LineFragShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\LineFragShader.glsl",
+              "RelativeToolTip": "Hazi\\LineFragShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:17:39.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FragShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2\\FragShader.glsl",
+              "RelativeDocumentMoniker": "Hazi2\\FragShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2\\FragShader.glsl",
+              "RelativeToolTip": "Hazi2\\FragShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:14:32.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FragShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\FragShader.glsl",
+              "RelativeDocumentMoniker": "Hazi\\FragShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\FragShader.glsl",
+              "RelativeToolTip": "Hazi\\FragShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:14:45.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CurveTessContShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveTessContShader.glsl",
+              "RelativeDocumentMoniker": "Hazi2_Peldakod\\CurveTessContShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveTessContShader.glsl",
+              "RelativeToolTip": "Hazi2_Peldakod\\CurveTessContShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:32:29.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurveTessEvalShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveTessEvalShader.glsl",
+              "RelativeDocumentMoniker": "Hazi2_Peldakod\\CurveTessEvalShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi2_Peldakod\\CurveTessEvalShader.glsl",
+              "RelativeToolTip": "Hazi2_Peldakod\\CurveTessEvalShader.glsl",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:33:19.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LineVertShader.glsl",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\LineVertShader.glsl",
+              "RelativeDocumentMoniker": "Hazi\\LineVertShader.glsl",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\Hazi\\LineVertShader.glsl",
+              "RelativeToolTip": "Hazi\\LineVertShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-24T01:14:43.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "common.cpp",
+              "DocumentMoniker": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\OpenGLTemplate\\include\\common.cpp",
+              "RelativeDocumentMoniker": "OpenGLTemplate\\include\\common.cpp",
+              "ToolTip": "D:\\Git\\242502szamitogepesgrafika-Lajahh\\Beadandok\\OpenGLTemplate\\include\\common.cpp",
+              "RelativeToolTip": "OpenGLTemplate\\include\\common.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T00:59:21.333Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
