@@ -21,25 +21,25 @@ enum eTexture {
 #define BEZIER_BERNSTEIN    3
 #define MAX_CONTROL_POINTS  32
 
-GLchar  windowTitle[] = "Bézier görbe";
+GLchar  windowTitle[] = "Bézier-görbe";
 vector<vec3> controlPoints = {
     vec3(-0.7f, -0.5f, 0.0f),
     vec3(-0.3f, 0.5f, 0.0f),
-    vec3(0.3f, 0.5f, 0.0f),
+    vec3(0.3f, 0.5f, 0.0f),                         // Előre inicializált kontrollpontok
     vec3(0.7f, -0.5f, 0.0f)
 };
 
 GLuint locationTessMatProjection, locationTessMatModelView, locationCurveType, locationControlPointsNumber;
 GLuint locationCurveColor, locationLineColor, locationPointColor;
 GLuint curveType = BEZIER_BERNSTEIN;
-GLint selectedPoint = -1;
-bool mousePressed = false;
+GLint selPoint = -1;
+bool drag = false;
 
 vec3 curveColor = vec3(0.8f, 0.4f, 0.5f);
 vec3 lineColor = vec3(0.3f, 0.0f, 0.5f);            // Színek beállítása
 vec3 pointColor = vec3(1.0f, 1.0f, 0.0f);
 
-void updateControlPointsBuffer() {
+void updateControlPoints() {
     glBindBuffer(GL_ARRAY_BUFFER, BO[VBOBezierData]);
     glBufferData(GL_ARRAY_BUFFER, MAX_CONTROL_POINTS * sizeof(vec3), nullptr, GL_DYNAMIC_DRAW);
     if (!controlPoints.empty()) {
@@ -58,11 +58,11 @@ void initTesselationShader() {
         { GL_VERTEX_SHADER,            "./CurveVertShader.glsl" },
         { GL_NONE,                     nullptr }
     };
-    program[CurveTesselationProgram] = LoadShaders(shader_info);                                        // Shader fileok betöltése
+    program[CurveTesselationProgram] = LoadShaders(shader_info);                                        // Shader fileok betöltése és inicializálása
     glBindVertexArray(VAO[VAOCurveData]);
     glBindBuffer(GL_ARRAY_BUFFER, BO[VBOBezierData]);
     glBufferData(GL_ARRAY_BUFFER, MAX_CONTROL_POINTS * sizeof(vec3), nullptr, GL_DYNAMIC_DRAW);
-    updateControlPointsBuffer();
+    updateControlPoints();
 
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
     glEnableVertexAttribArray(0);
@@ -112,13 +112,13 @@ void display(GLFWwindow* window, double currentTime) {
         glUseProgram(program[QuadScreenProgram]);
 
         if (controlPoints.size() > 1) {
-            glUniform3fv(locationLineColor, 1, value_ptr(lineColor));                   // Kontrolpoligon kirajzolása
+            glUniform3fv(locationLineColor, 1, value_ptr(lineColor));                   // Kontrollpoligon kirajzolása
             glLineWidth(2.0f);
             glDrawArrays(GL_LINE_STRIP, 0, controlPoints.size());
         }
 
         glUniform3fv(locationPointColor, 1, value_ptr(pointColor));
-        glPointSize(8.0);                                                               // Kontrolpontokkirajzolása
+        glPointSize(8.0);                                                               // Kontrollpontokkirajzolása
         glDrawArrays(GL_POINTS, 0, controlPoints.size());
     }
 
@@ -165,12 +165,12 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 }
 
 void cursorPosCallback(GLFWwindow* window, double xPos, double yPos) {
-    if (mousePressed && selectedPoint != -1 && selectedPoint < controlPoints.size()) {
+    if (drag && selPoint != -1 && selPoint < controlPoints.size()) {
         float worldX = ((2.0f * xPos) / windowWidth - 1.0f) * (windowWidth > windowHeight ? worldSize * (float)windowWidth / windowHeight : worldSize);
         float worldY = (1.0f - (2.0f * yPos) / windowHeight) * (windowWidth > windowHeight ? worldSize : worldSize * (float)windowHeight / windowWidth);            // Görbe valós koordinátái
 
-        controlPoints[selectedPoint] = vec3(worldX, worldY, 0.0f);
-        updateControlPointsBuffer();
+        controlPoints[selPoint] = vec3(worldX, worldY, 0.0f);
+        updateControlPoints();
     }
 }
 
@@ -182,50 +182,50 @@ void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods) {
 
     if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
         float minDist = 0.1f;
-        selectedPoint = -1;
+        selPoint = -1;
 
         for (int i = 0; i < controlPoints.size(); i++) {
             float dx = controlPoints[i].x - worldX;
             float dy = controlPoints[i].y - worldY;
-            float dist = sqrt(dx * dx + dy * dy);
+            float dist = sqrt(dx * dx + dy * dy);                                           // Kurzor távolsága egy kontrollponttól
 
             if (dist < minDist) {
                 minDist = dist;
-                selectedPoint = i;
+                selPoint = i;
             }
         }
 
-        mousePressed = true;
+        drag = true;
 
-        if (selectedPoint == -1 && controlPoints.size() < MAX_CONTROL_POINTS) {                     // Egér mozgatási események kezelése
+        if (selPoint == -1 && controlPoints.size() < MAX_CONTROL_POINTS) {                     // Egér mozgatási események kezelése
             controlPoints.push_back(vec3(worldX, worldY, 0.0f));
-            updateControlPointsBuffer();
+            updateControlPoints();
             glUseProgram(program[CurveTesselationProgram]);
             glUniform1i(locationControlPointsNumber, controlPoints.size());
         }
     }
     else if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE) {
-        mousePressed = false;
-        selectedPoint = -1;                                                                     // Kontrolpont mozgatása és görbe újrarajzolása
+        drag = false;
+        selPoint = -1;                                                                     // Kontrollpont mozgatása és görbe újrarajzolása
     }
     else if (button == GLFW_MOUSE_BUTTON_RIGHT && action == GLFW_PRESS) {
         float minDist = 0.1f;
-        selectedPoint = -1;
+        selPoint = -1;
 
         for (int i = 0; i < controlPoints.size(); i++) {
             float dx = controlPoints[i].x - worldX;
             float dy = controlPoints[i].y - worldY;
-            float dist = sqrt(dx * dx + dy * dy);
+            float dist = sqrt(dx * dx + dy * dy);                                       // Kontrollpontok közötti távolság kiszámítása
 
             if (dist < minDist) {
                 minDist = dist;
-                selectedPoint = i;
+                selPoint = i;
             }
         }
 
-        if (selectedPoint != -1) {
-            controlPoints.erase(controlPoints.begin() + selectedPoint);
-            updateControlPointsBuffer();                                                            // Kontrolpont törlése
+        if (selPoint != -1) {
+            controlPoints.erase(controlPoints.begin() + selPoint);
+            updateControlPoints();                                                            // Kontrollpont törlése
             glUseProgram(program[CurveTesselationProgram]);
             glUniform1i(locationControlPointsNumber, controlPoints.size());
         }
